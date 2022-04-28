@@ -1,21 +1,10 @@
 # FizzBuzz
 
-**TODO: Add description**
+** Simple exercise to learn a little bit about Elixir **
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:fizz_buzz, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/fizz_buzz>.
+- Convert a list of numbers following the rules:
+ - when the number provided is divide by 3 and 5 the number should be replaced by :fizzbuzz
+ - when the number provided is divide only by 3 the number should be replaced by :fizz
+ - when the number provided is divide only by 3 the number should be replaced by :buzz
+ - when the file does not exists an error should be returned
 
